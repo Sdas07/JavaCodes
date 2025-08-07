@@ -1,9 +1,9 @@
 public class FactorialRecursion {
     public static int factorial(int n) {
         if (n == 1) {
-            return 1;  // base case
+            return 1; 
         }
-        return n * factorial(n - 1);  // recursive call
+        return n * factorial(n - 1);  
     }
 
     public static void main(String[] args) {
